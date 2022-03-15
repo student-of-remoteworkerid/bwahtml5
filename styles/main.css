@@ -17,13 +17,15 @@ body {
 .header {
     width: 100%;
     overflow: hidden;
-    background: #b1b1b1;
+    background: linear-gradient(to bottom, rgb(32, 9, 89), rgb(8, 59, 84));
+    height: 550px;
 }
 
 .header .logo {
     font-size: 32px;
     float: left;
     font-family: 'Italianno';
+    color: white;
 }
 
 .header .navigation {
