@@ -1,11 +1,60 @@
+/* install fonts */
+@font-face {
+    font-family: abrilFat;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+}
+
 body {
     margin: 0;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
 }
 
 .header {
     width: 100%;
     overflow: hidden;
     background: #b1b1b1;
-    padding-left: 50px;
-    margin-bottom: 50px;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: abrilFat;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+    flex-direction: column-reverse;
+}
+
+.header .navigation li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+section {
+    margin-left: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 20px;
 }
