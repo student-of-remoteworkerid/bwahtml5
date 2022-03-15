@@ -23,7 +23,7 @@ body {
 .header .logo {
     font-size: 32px;
     float: left;
-    font-family: sans-serif;
+    font-family: 'Italianno';
 }
 
 .header .navigation {
@@ -50,12 +50,13 @@ body {
     text-decoration: underline;
 }
 
-section {
-    margin-left: 20px;
+.icon-kelas {
+    width: 300px;
+    height: 300px;
+    background: red;
+    border-radius: 50%;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    margin-left: 20px;
+.parent {
+    margin-top: 100px;
 }
